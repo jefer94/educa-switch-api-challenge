@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  educa-switch-api-challenge:
+    build: .
+    ports:
+      - 3000:3000
